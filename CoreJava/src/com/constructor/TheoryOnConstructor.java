@@ -1,6 +1,9 @@
 /**
  * Sub: Constructors
  * 
+ * why is constructor?
+ * Constructors are used to write the logics and those logics are executed during the object creation.
+ * 
  * There are different approaches to create objects...
  * i. new Keyword,
  * ii. Instance factory method,

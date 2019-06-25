@@ -1,5 +1,5 @@
 /**
- * Subject: Parameterized Constructor
+ * Subject: User-defined Parameterized/non-parameterized Constructor
  */
 
 package com.constructor;
@@ -32,6 +32,8 @@ public class Constructor2 {
 		Constructor2 cons1 = new Constructor2();
 		Constructor2 cons2 = new Constructor2(10);
 		
+		cons1.m1();
+		cons2.m1();
 
 	}
 

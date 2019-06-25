@@ -1,32 +1,29 @@
 package com.methods.withoutReturnType;
 
-class RatanTata{ }
-class Tcs{}
-
-
-class Birla{}
-class More{}
-
-
-
 public class Practice {
+//Instance Variables
+	int a=10;
+	int b=20;
 	
-	public void m1(RatanTata rt, Tcs tcs) {
-		System.out.println("M1 method");
+	public void add(int a, int b) {
+		System.out.println("Add Result: ");
+		System.out.println(a+b);
+		System.out.println(this.a+this.b);
 	}
 	
-	public static void m2(Birla br, More more) {
-		System.out.println("M2 method");
+	public int multiplication(int a, int b) {
+		
+		System.out.println("Multiplication Result: ");
+		System.out.println(a*b);
+		System.out.println(this.a*this.b);
+		return a*b;
+		
 	}
 	
-
-
 	public static void main(String[] args) {
-		Practice prctice = new Practice();
-		prctice.m1(new RatanTata(), new Tcs());
-	
-		Practice.m2(new Birla(), new More());
-
+		Practice pra = new Practice();
+		pra.add(100, 200);
+		pra.multiplication(100, 200);
 	}
 
 }
