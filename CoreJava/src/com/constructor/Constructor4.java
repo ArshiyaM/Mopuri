@@ -7,6 +7,10 @@ public class Constructor4 {
 	float empSalary;
 	
 	public Constructor4(int empId, String empName, float empSalary) {
+		//Conversion of local variables to instance variables using 'this' keyword.
+		this.empId=empId;
+		this.empName=empName;
+		this.empSalary=empSalary;
 		
 	}
 	
