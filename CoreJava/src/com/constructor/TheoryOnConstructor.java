@@ -49,7 +49,11 @@
  *    a. It is created by user.
  *    b. Based on user requirements user can create it with ZERO_ARGUMENT Constructor,
  *    c. Here it is possible to pass the parameters in the user-defined constructor.
- * 
+ *    
+ * Advantages of Constructors
+ * --------------------------
+ * 1. Constructors are used to write the logics and those logics are executed during the object creation.
+ * 2. Constructors are used to initialize some values to the instance variables during object creation.
  */
 
 
