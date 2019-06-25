@@ -4,6 +4,9 @@
  * why is constructor?
  * Constructors are used to write the logics and those logics are executed during the object creation.
  * 
+ * When default-constructor and user-defined constructor will get executed?
+ * Default-constructor and User-defined constructor will get executed during the object creation.
+ * 
  * There are different approaches to create objects...
  * i. new Keyword,
  * ii. Instance factory method,
@@ -53,5 +56,21 @@
 package com.constructor;
 
 public class TheoryOnConstructor {
+	
+	int empId;
+	String employeeName;
+	float employeeSalary;
+	
+	public TheoryOnConstructor() {
+		empId=1770;
+		employeeName= "Mopuri Rahamthulla";
+		employeeSalary=77.07f;
+		
+	}
+	
+	public static void main(String[] args) {
+		@SuppressWarnings("unused")
+		TheoryOnConstructor theCons = new TheoryOnConstructor();
+	}
 
 }
