@@ -54,6 +54,18 @@
  * --------------------------
  * 1. Constructors are used to write the logics and those logics are executed during the object creation.
  * 2. Constructors are used to initialize some values to the instance variables during object creation.
+ * 
+ * 
+ * Formats of Objects creation
+ * ----------------------------
+ * 1. Named object approach.
+ *    Ex: Test t = new Test();
+ *    
+ * 2. Name less approach.
+ * 	  Ex: new Test();
+ * 
+ * In the project level, approach-2 will be used.
+ * 
  */
 
 

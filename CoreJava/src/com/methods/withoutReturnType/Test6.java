@@ -20,6 +20,7 @@ public class Test6 {
 	
 	public void m3(int i) {
 		System.out.println("This is M3 Method");
+		System.out.println(i);
 	}
 	
 	

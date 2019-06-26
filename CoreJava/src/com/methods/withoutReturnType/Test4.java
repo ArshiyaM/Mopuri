@@ -14,7 +14,7 @@ public class Test4 {
 	}
 	
 	public void m1(int a) {
-		System.out.println("This is M2 method");
+		System.out.println("This is M1 method --->>> with Parameters");
 		System.out.println(a);
 	}
 

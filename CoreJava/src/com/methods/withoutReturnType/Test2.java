@@ -7,7 +7,7 @@ package com.methods.withoutReturnType;
  * @author rmopuri
  * 
  * While passing the parameters:If the method is expecting the 
- * parameters while calling that method we must pass the parameters
+ * parameters while calling that method we must pass the values.
  * 
  * While passing the value to the parameter the order and the number
  * of parameters must be important.
