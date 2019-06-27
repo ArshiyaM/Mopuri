@@ -52,8 +52,12 @@
  *    
  * Advantages of Constructors
  * --------------------------
- * 1. Constructors are used to write the logics and those logics are executed during the object creation.
- * 2. Constructors are used to initialize some values to the instance variables during object creation.
+ * Adv-1:
+ * ------
+ * Constructors are used to write the logics and those logics are executed during the object creation.
+ * Adv-2:
+ * ------
+ * Constructors are used to initialize some values to the instance variables during object creation.
  * 
  * 
  * Formats of Objects creation
