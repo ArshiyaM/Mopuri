@@ -21,8 +21,11 @@ public class Instance2 {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		@SuppressWarnings("unused")
-		Instance2 ins2 = new Instance2();
+	
+		new Instance2();
+		new Instance2(10);
+		new Instance2(10,"MRT");
+		
 
 	}
 

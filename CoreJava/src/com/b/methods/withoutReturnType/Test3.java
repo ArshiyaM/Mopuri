@@ -30,9 +30,6 @@ public class Test3 {
 		
 		t3.m1(new Yasmine(),new Arshu());
 		Test3.m2(new Mopuri(),new Raham());
-		
-
-
 	}
 
 }

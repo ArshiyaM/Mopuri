@@ -1,29 +1,24 @@
 package com.b.methods.withoutReturnType;
 
+class Practice1{}
+class Practice2{}
+class Practice3{}
+class Practice4{}
+
 public class Practice {
-//Instance Variables
-	int a=10;
-	int b=20;
 	
-	public void add(int a, int b) {
-		System.out.println("Add Result: ");
-		System.out.println(a+b);
-		System.out.println(this.a+this.b);
+	public void m1(Practice1 practice1, Practice2 p2) {
+		System.out.println("M1 method");
 	}
 	
-	public int multiplication(int a, int b) {
-		
-		System.out.println("Multiplication Result: ");
-		System.out.println(a*b);
-		System.out.println(this.a*this.b);
-		return a*b;
-		
+	public static void m2(Practice3 p3, Practice4 p4) {
+		System.out.println("M2 method");
 	}
 	
 	public static void main(String[] args) {
-		Practice pra = new Practice();
-		pra.add(100, 200);
-		pra.multiplication(100, 200);
+		Practice practi = new Practice();
+		practi.m1(new Practice1(), new Practice2());
+		Practice.m2(new Practice3(), new Practice4());
 	}
 
 }

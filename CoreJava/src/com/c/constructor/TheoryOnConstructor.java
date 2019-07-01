@@ -30,8 +30,9 @@
  * Rules to declare constructors in Java
  * --------------------------------------
  * 1. Constructor name and class name must be same.
- * 2. Constructor able to take parameters
- * 3. Constructor not allowed return types,
+ * 2. Constructor able to take parameters.
+ * 3. Constructor not allowed return types.
+ * 4. Inside a class we can define more than 1 constructor.
  *
  *Default Constructor (OR) Zero Argument Constructor
  *--------------------------------------------------- 
