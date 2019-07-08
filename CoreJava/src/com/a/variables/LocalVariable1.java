@@ -1,5 +1,5 @@
 /**
- * Local Variables inside main method
+ * Local Variables inside main method.
  */
 
 package com.a.variables;

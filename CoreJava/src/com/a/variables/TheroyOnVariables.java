@@ -28,7 +28,7 @@
  *  
  * 
  * 
- * 2. Instance Variables
+ * 2. Instance Variables:
  * 3. Static Variables
  * 
  * 
