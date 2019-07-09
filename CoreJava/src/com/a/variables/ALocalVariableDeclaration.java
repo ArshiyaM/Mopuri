@@ -1,10 +1,13 @@
 /**
- * Local Variables inside main method.
+ * 
+ * Local Variables Declaration
+ * -----------------------------
+ * Local Variables declared inside main method.
  */
 
 package com.a.variables;
 
-public class LocalVariable1 {
+public class ALocalVariableDeclaration {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

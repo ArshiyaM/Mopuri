@@ -12,12 +12,23 @@
  * ------------------
  * 1. Local Variables:
  * 
- * i. Variables which are declared inside a method/inside constructor/ inside a blocks(static or instance) are called "Local Variables".
- *    EX: LocalVariable1
- * ii. Scope: Scope of the Local Variable is only within the method/within constructor/ within a blocks(static or instance).
- * iii. Memory Allocation: Local Variables memory allocated when the method is invoked. And also memory is released when the method execution is completed.
+ * i. Local Variable Declaration:
+ * Variables which are declared inside a method/inside constructor/ inside a blocks(static or instance) are called "Local Variables".
+ *    EX: For better understanding refer the class ----> LocalVariable1
+ *    
+ * ii. Scope: 
+ * Scope of the Local Variable is only within the method/within constructor/ within a blocks(static or instance)
+ * 
+ * iii. Memory Allocation: 
+ * Local Variables memory allocated when the method is invoked. And also memory is released when the method execution is completed.
+ * Ex: For better understanding go through the class ---> ALocalVariableMemoryAllocation
+ * 
+ * iv. Stack Memory:
+ * Local Variables are stored in the stack memory.
  * 
  * 
+ * Exrtra Information:
+ * -------------------
  * int a=10; --> Here 'a' is variable of type 'int'
  * Variable Types: 
  * 
