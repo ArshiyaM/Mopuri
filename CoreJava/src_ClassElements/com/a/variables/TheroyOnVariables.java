@@ -25,6 +25,12 @@
  * iv. Stack Memory:
  * Local Variables are stored in the stack memory.
  * 
+ * v. Default Values:
+ * For local variables JVM will not assign the default values. Local Variables must be initialized with some value. Otherwise JVM will throw an error while executing.
+ * 
+ * EX:
+ * For better understanding refer the class "DefaultValuesToVariables"
+ * 
  * 
  * *****2. Instance Variables******
  * Definition of Instance Variables: The variables which are declared inside a class and outside a method is called "Instance Variables"
@@ -51,16 +57,26 @@
  * Permission-1: Instance Area ---> "Instance variables & methods" can be DIRECTLY ACCESSED
  * Permission-2: Static Area   ---> "Instance variables & methods" can be ACCESSED BY USING OBJECT REFERENCE VARIABLE
  * 
+ * v. Stack Memory:
+ * Stored in Heap Memory
+ 
+ *vi. Default Values:
+ * For instance variables JVM will assign the default values.
+ * 
+ * EX:
+ * For better understanding refer the class "DefaultValuesToVariables"
+ *
+ * 
  * 
  * *****3. Static Variables*****
  * Def:
  * The variables which are declared inside a class and outside a method using STATIC modifier is called "Static Variables"
- *
+ * 
  *i. Static Variables Declaration:
  *The variables which are declared inside a class and outside a method using STATIC modifier.
  *
  *EX:
- *For better understanding of STATIC variables declaration refere the class ---> CStaticVariablesDeclaration
+ *For better understanding of STATIC variables declaration refer the class ---> CStaticVariablesDeclaration
  *
  *ii. Scope
  * Static variables can be accessed inside class.
@@ -72,12 +88,22 @@
  * Action-1: JVM loads .class file byte code in to the memory
  * Action-2: JVM calls main method to start the execution.
  * 
- * So from this we can understand that the static variables gets the memory during the .class file loading.
+ * So from this we can understand 2-points that are..... 
+ * A. The static variables gets the memory during the .class file loading.
+ * B. Memory destroys when the .class file unloading. 
  * 
  * iv.Permission:
  * Permission-1: Static Area     ---> "Static variables & methods" can be accessed by using CLASS_NAME
  * Permission-2: Instance Area   ---> "Static variables & methods" can be accessed by using CLASS_NAME
  * 
+ * v. Stack Memory:
+ * Non Heap
+ * 
+ * vi.Default Values:
+ * For Static variables JVM will assign the default values.
+ * 
+ * EX:
+ * For better understanding refer the class "DefaultValuesToVariables"
  * 
  * Extra Information:
  * -------------------
@@ -90,9 +116,20 @@
  * c. Array-type     ==> Ex - int[] a; Staring[] str;
  *  
  * 
+ * Variables VS Default values
+ * ============================
+ * Default value of byte = 0
+ * Default value of short = 0
+ * Default value of int = 0
+ * Default value of long = 0
+ * Default value of float = 0.0
+ * Default value of double = 0.0
+ * Default value of char = single space
+ * Default value of boolean = false
  * 
- * 2. Instance Variables:
- * 3. Static Variables
+ * Note: 
+ * 1. JVM will assign the default values to the variables.
+ * 2. Default value of any class = null
  * 
  * 
  */

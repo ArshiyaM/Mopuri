@@ -61,6 +61,7 @@ public class AllClassElementsExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		AllClassElementsExample a1 = new AllClassElementsExample();
+		@SuppressWarnings("unused")
 		AllClassElementsExample a2 = new AllClassElementsExample(22);
 		a1.m1(33);
 		AllClassElementsExample.m2("MOPURI");
